@@ -14,7 +14,7 @@ smallest_value = name_hash.first[1]
       smallest_key = key
       return smallest_key
   end
-if smallest_key == []
+if smallest_key == {}
   return nil
 end
   end
