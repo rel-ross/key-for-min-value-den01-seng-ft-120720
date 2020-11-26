@@ -20,5 +20,6 @@ smallest_key = nil
   else
     return smallest_key
   end
+  end
 end
 
