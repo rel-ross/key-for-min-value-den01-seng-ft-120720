@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
 #first attempt
 smallest_value = name_hash.first[1]
   name_hash.each do |key, value|
-   if name_hash[key][value] == false
+   if name_hash[key][value] = false
      return nil 
    end
     if value < smallest_value 
