@@ -14,6 +14,6 @@ smallest_value = name_hash.first[1]
       smallest_key = key
   end
   end
-  return smallest_key
+  return key
 end
 
