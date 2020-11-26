@@ -15,7 +15,7 @@ smallest_key = nil
       smallest_key = key
      
   end
-  if key == nil
+  if smallest_key == nil
     return nil
   else
     return smallest_key
