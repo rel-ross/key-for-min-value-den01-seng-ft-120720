@@ -13,13 +13,8 @@ smallest_key = nil
   name_hash.each do |key, value|
     if value == smallest_value
       smallest_key = key
-     
   end
-  if smallest_key == nil
-    return nil
-  else
-    return smallest_key
-  end
+ return smallest_key
   end
 end
 
