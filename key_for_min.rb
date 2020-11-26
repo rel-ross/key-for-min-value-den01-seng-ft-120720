@@ -9,7 +9,7 @@ smallest_key = name_hash.first[0]
     if value < smallest_value 
       smallest_value = value
       elsif value == '' 
-      smallest_value = []
+      smallest_value = nil
     end
   end
   name_hash.each do |key, value|
