@@ -17,7 +17,6 @@ smallest_key = name_hash.first[0]
   name_hash.each do |key, value|
     if value == smallest_value
       smallest_key = key
-   
   end
   end
   return smallest_key
