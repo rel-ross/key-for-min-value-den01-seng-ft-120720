@@ -12,8 +12,9 @@ smallest_key = nil
   end
   name_hash.each do |key, value|
     if value == smallest_value
-      if key 
       smallest_key = key
+    elsif key == ''
+    smallest_key = nil
   end
   end
   return smallest_key
