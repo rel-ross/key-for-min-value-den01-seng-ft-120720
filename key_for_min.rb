@@ -13,7 +13,7 @@ smallest_value = name_hash.first[1]
     if value == smallest_value
       smallest_key = key
   end
-return smallest_key
   end
+  return smallest_key
 end
 
