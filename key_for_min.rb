@@ -13,9 +13,9 @@ smallest_value = name_hash.first[1]
   name_hash.each do |key, value|
     if value == smallest_value
       return key
+    else 
+      nil
     end
-  else
-   return nil
   end
 
 end
